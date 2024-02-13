@@ -1,18 +1,18 @@
-/** Replace the values below with the addresses of your smart contracts. */
+import { Avalanche } from "@thirdweb-dev/chains";
+export const NETWORK = Avalanche;
+export const MARKETPLACE_ADDRESS = "0x7f6e616815a415e907Df16B4d13b98092199aeee";
 
-// 1. Set up the network your smart contracts are deployed to.
-// First, import the chain from the package, then set the NETWORK variable to the chain.
-import { Mumbai } from "@thirdweb-dev/chains";
-export const NETWORK = Mumbai;
-
-// 2. The address of the marketplace V3 smart contract.
-// Deploy your own: https://thirdweb.com/thirdweb.eth/MarketplaceV3
-export const MARKETPLACE_ADDRESS = "0x83c57ec0dF015eef8401fFb7CB7f66CfA8b6Ff55";
-
-// 3. The address of your NFT collection smart contract.
 export const NFT_COLLECTION_ADDRESS =
   "0x67b40fC017863743C520cDAec1B367BE1FD721f0";
 
-// (Optional) Set up the URL of where users can view transactions on
-// For example, below, we use Mumbai.polygonscan to view transactions on the Mumbai testnet.
-export const ETHERSCAN_URL = "https://mumbai.polygonscan.com";
+export const NFT_COLLECTION_ADDRESS_2 =
+  "0x8F1f74e9CAD296f99a6f36A56E1f3AfB45571CC9";
+
+export const NFT_COLLECTION_ADDRESS_3 =
+  "0x86840ea36Dd141719003aEa81D3630917eb35d8D";
+
+// 1. 0x6Bb77D0f531A4B6f1c72676a814df5E4FB50F1D6
+// 2. 0x8F1f74e9CAD296f99a6f36A56E1f3AfB45571CC9
+// 3. 0x86840ea36Dd141719003aEa81D3630917eb35d8D
+
+export const ETHERSCAN_URL = "https://testnet.snowtrace.io/";
